@@ -1,0 +1,6 @@
+# Core PDF and Document Processing
+PyMuPDF>=1.23.0              # PDF text extraction
+
+# Arabic and Multilingual Text Processing
+arabic-reshaper>=3.0.0       # Arabic character reshaping
+python-bidi>=0.4.2           # Bidirectional text support
