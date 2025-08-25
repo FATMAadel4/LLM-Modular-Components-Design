@@ -22,5 +22,5 @@ def extract_text_by_blocks(pdf_path):
     return full_text
 
 
-text = extract_text_by_blocks("mixed.pdf")
+text = extract_text_by_blocks("SampleFiles/arabic_text.pdf")
 print(text)
