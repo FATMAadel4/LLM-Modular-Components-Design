@@ -19,11 +19,11 @@ doc = result.document
 
 # Extract plain text
 
-#text = doc.export_to_text()   
+text = doc.export_to_text()   
         
 
 # Save extracted text to file
 with open(output_file, "w", encoding="utf-8") as f:
-    f.write(doc)
+    f.write(text)
 
 print(f" Extracted text saved to {output_file}")
